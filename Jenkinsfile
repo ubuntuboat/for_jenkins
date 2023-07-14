@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    toos {
+    tools {
         maven 'mvn-3.5.4'
     }
 
