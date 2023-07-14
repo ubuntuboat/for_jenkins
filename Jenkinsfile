@@ -11,7 +11,7 @@ pipeline {
                 echo 'lightboat begin.'
                 sh "mvn clean package sprint-boot:repackage"
                 sh "printenv"
-                echo 'lightboat begin.'
+                echo 'lightboat end.'
            }
         }
     }
