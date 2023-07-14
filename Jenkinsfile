@@ -8,10 +8,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'lightboat begin.'
+                echo 'steps begin.'
                 sh "mvn clean package sprint-boot:repackage"
                 sh "printenv"
-                echo 'lightboat end.'
+                echo 'steps end.'
            }
         }
     }
