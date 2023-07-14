@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'steps begin.'
-                sh "mvn clean package sprint-boot:repackage"
+                sh "mvn clean package spring-boot:repackage"
                 sh "printenv"
                 echo 'steps end.'
            }
