@@ -10,7 +10,6 @@ pipeline {
             steps {
                 echo 'steps begin.'
                 bat "mvn clean package spring-boot:repackage"
-                bat "printenv"
                 echo 'steps end.'
            }
         }
