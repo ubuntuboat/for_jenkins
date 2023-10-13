@@ -17,7 +17,7 @@ pipeline {
         
         stage('Echo') {
         	steps {
-        		echo '######### try a try@@@'
+        		echo '######### try a try...@@@'
         	}
         }
     }
