@@ -9,9 +9,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'steps begin.'
-                bat "mvn clean package spring-boot:repackage"
-                bat "set"
-                echo 'steps end~~~'
+//                bat "mvn clean package spring-boot:repackage"
+//                bat "set"
+                echo 'steps end.'
            }
         }
         
